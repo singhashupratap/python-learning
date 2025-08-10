@@ -40,4 +40,3 @@ print(f" Your  is {time} year/s")
 
 final = round(principal *pow((1+rate/100),time),2)
 print(f"After {time} year/s your ₹{principal} amount will be ₹{final}  at the rate of {rate}%")
-
