@@ -1,4 +1,4 @@
-name = str(input("Please enter your name : "))
+# name = str(input("Please enter your name : "))
 
 while name == "" :
     print("Blank name will not acceptable")
@@ -7,7 +7,7 @@ print(f"Welcome {name} on board")
 
 
 
-######## Favorite food
+# ######## Favorite food
 
 food = str(input("Please enter the food name you like (q to quite) : ")).lower()
 
@@ -16,14 +16,14 @@ while not food == "q":
     food = str(input("Please enter another food that you like (q to quite : ")).lower()
 print("Thaks for visting hope we can serve you better next time ")
 
-##### Compound interest calculation
+#### Compound interest calculation
 
-principal = int(input("Please enter the Principal Amount : ₹"))
+principal = float(input("Please enter the Principal Amount : ₹ "))
 while principal <= 0 :
     print("Not a valid principal amount")
     principal = int(input("Please enter the Principal Amount in positive and non zero : "))
 
-rate = float(input("Please enter rate of interest : %"))
+rate = float(input("Please enter rate of interest : % "))
 while rate <= 0 :
     print("Not a valid rate of interest")
     rate = float(input("Please enter the rate of interest in positive and non zero : "))
@@ -40,3 +40,4 @@ print(f" Your  is {time} year/s")
 
 final = round(principal *pow((1+rate/100),time),2)
 print(f"After {time} year/s your ₹{principal} amount will be ₹{final}  at the rate of {rate}%")
+
