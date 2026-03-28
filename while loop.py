@@ -1,20 +1,20 @@
-# name = str(input("Please enter your name : "))
-
-while name == "" :
-    print("Blank name will not acceptable")
-    name = str(input("Please enter your name : "))
-print(f"Welcome {name} on board")
-
-
-
-# ######## Favorite food
-
-food = str(input("Please enter the food name you like (q to quite) : ")).lower()
-
-while not food == "q":
-    print(f"Thanks for odering your favourite {food}")
-    food = str(input("Please enter another food that you like (q to quite : ")).lower()
-print("Thaks for visting hope we can serve you better next time ")
+# # name = str(input("Please enter your name : "))
+#
+# while name == "" :
+#     print("Blank name will not acceptable")
+#     name = str(input("Please enter your name : "))
+# print(f"Welcome {name} on board")
+#
+#
+#
+# # ######## Favorite food
+#
+# food = str(input("Please enter the food name you like (q to quite) : ")).lower()
+#
+# while not food == "q":
+#     print(f"Thanks for odering your favourite {food}")
+#     food = str(input("Please enter another food that you like (q to quite : ")).lower()
+# print("Thaks for visting hope we can serve you better next time ")
 
 #### Compound interest calculation
 
